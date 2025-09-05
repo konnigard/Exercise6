@@ -8,3 +8,6 @@ while True:
     if rand1 == 69:
         print("Ok ég nenni þessu ekki lengur")
         break
+
+un = input("Please enter your name: ")
+print(f"Hallo {un}")
