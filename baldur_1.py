@@ -1,3 +1,14 @@
+import random
+rand1 = random.randint(0, 100)
+rand2 = random.randint(0,100)
+
+while True:
+    if rand1 + rand2 == 69:
+        print(f"{rand1} + {rand2} is 69")
+        break
+    rand1 = random.randint(0, 100)
+    rand2 = random.randint(0,100)
+
 scooby_gang = input("Plese enter the first name you're favorite Scooby-Gang Member: ")
 
 if (scooby_gang == "Scooby" or scooby_gang == "scooby"):
